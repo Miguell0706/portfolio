@@ -110,7 +110,7 @@ body {
   border-left: none;
   border-top: none;
   border-bottom: none;
-  border-color: #fffefe;
+  border-color: #525151;
 }
 .aboutMep {
   margin: 150px;
@@ -139,7 +139,7 @@ body {
   border-bottom: none;
   display: flex;
   align-items: center;
-  border-color: #ffffffde;
+  border-color: #525151;
   height: auto;
 }
 /*work grid code*/
@@ -153,11 +153,12 @@ body {
 .item {
   display: flex;
   flex-direction: column;
-  background: grey;
+  background: rgb(70, 69, 69);
   color: white;
   padding: 7px;
   grid-column: span 2;
   position: relative;
+  border-radius: 10px;
 }
 
 .coming-soon {
@@ -235,7 +236,7 @@ body {
   border-bottom: none;
   display: flex;
   align-items: center;
-  border-color: #ffffffde;
+  border-color: #525151;
 }
 #contactMe p {
   font-size: 20px;
@@ -260,7 +261,7 @@ body {
     border-left: none;
     border-right: none;
     border-bottom-width: 5px;
-    border-color: #ffffff;
+   
   }
   .contactList {
     width: 100%;
@@ -290,7 +291,7 @@ body {
     border-left: none;
     border-right: none;
     border-bottom-width: 5px;
-    border-color: #ffffff;
+   
   }
 }
 @media screen and (max-width: 600px) {
